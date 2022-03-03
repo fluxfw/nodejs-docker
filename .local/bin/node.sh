@@ -2,7 +2,6 @@
 
 set -e
 
-docker pull node:current-alpine
-echo
+#docker pull node:current-alpine
 
 docker run --rm -it -u `id -u`:`id -g` -v "$PWD":/code -w /code --entrypoint node node:current-alpine "$@"
