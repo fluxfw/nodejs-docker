@@ -1,7 +1,6 @@
 {
   "description": "Run nodejs in a docker container without install nodejs on host",
   "topics": [
-    "alpine",
     "docker",
     "node",
     "nodejs",
