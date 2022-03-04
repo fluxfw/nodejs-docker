@@ -4,10 +4,20 @@ Run nodejs in a docker container without install nodejs on host
 
 ## Installation
 
-Symlink the files in [.local/bin](.local/bin) somewhere in your "PATH" (Assume ~/.local/bin)
+```shell
+./bin/install-to-home-local-bin.sh
+```
+
+## Commands
+
+### node
 
 ```shell
-for f in .local/bin/*; do
-  ln -sfT "$PWD/$f" "$HOME/.local/bin/`basename "$f" .sh`"
-done
+node ...
+```
+
+### npm
+
+```shell
+npm ...
 ```
