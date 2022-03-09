@@ -2,6 +2,9 @@
 
 set -e
 
-#docker pull node:current-alpine
+if [ -z `command -v run-in-docker` ]; then
+    echo "Please install flux-docker-utils"
+    exit 1
+fi
 
-docker run --rm -it -u `id -u`:`id -g` -v "$PWD":/code -w /code --entrypoint npm node:current-alpine "$@"
+run-in-docker node:current-alpine npm "$@"

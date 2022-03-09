@@ -7,4 +7,4 @@ if [ -z `command -v run-in-docker` ]; then
     exit 1
 fi
 
-run-in-docker node:current-alpine node "$@"
+run-in-docker node:current-alpine sh "$@"
