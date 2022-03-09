@@ -25,5 +25,5 @@ npm ...
 ### node-sh
 
 ```shell
-node-sh
+nodejs-sh
 ```
