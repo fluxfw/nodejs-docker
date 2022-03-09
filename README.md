@@ -22,7 +22,7 @@ node ...
 npm ...
 ```
 
-### node-sh
+### nodejs-sh
 
 ```shell
 nodejs-sh
