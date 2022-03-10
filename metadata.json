@@ -1,10 +1,10 @@
 {
-  "description": "Run nodejs in a docker container without install nodejs on host",
-  "topics": [
-    "docker",
-    "node",
-    "nodejs",
-    "npm"
-  ],
-  "homepage": "https://github.com/fluxapps/flux-nodejs-docker"
+    "description": "Run nodejs in a docker container without install nodejs on host",
+    "topics": [
+        "docker",
+        "node",
+        "nodejs",
+        "npm"
+    ],
+    "homepage": "https://github.com/fluxapps/flux-nodejs-docker"
 }
