@@ -13,13 +13,13 @@ Run nodejs in a docker container without install nodejs on host
 ### node
 
 ```shell
-node ...
+node-docker ...
 ```
 
 ### npm
 
 ```shell
-npm ...
+npm-docker ...
 ```
 
 ### nodejs-sh
