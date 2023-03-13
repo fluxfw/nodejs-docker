@@ -2,4 +2,4 @@
 
 set -e
 
-run-in-docker node:current-alpine npm "$@"
+run-in-docker node:current-alpine npm . "$@"

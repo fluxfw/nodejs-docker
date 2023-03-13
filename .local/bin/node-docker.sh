@@ -2,4 +2,4 @@
 
 set -e
 
-run-in-docker node:current-alpine node "$@"
+run-in-docker node:current-alpine node . "$@"
