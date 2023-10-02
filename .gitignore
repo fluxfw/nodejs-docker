@@ -5,5 +5,4 @@
 !bin/**
 !.dockerignore
 !.gitignore
-!metadata.json
 !README.md
