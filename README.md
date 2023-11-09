@@ -4,9 +4,7 @@ Run nodejs in a docker container without install nodejs on host
 
 ## Installation
 
-```shell
-./bin/install-to-home-local-bin.sh
-```
+Add the files in [bin/PATH/host](bin/PATH/host) to your PATH
 
 ## Commands
 
@@ -16,14 +14,14 @@ Run nodejs in a docker container without install nodejs on host
 node-docker ...
 ```
 
+### node-sh-docker
+
+```shell
+node-sh-docker
+```
+
 ### npm
 
 ```shell
 npm-docker ...
-```
-
-### nodejs-sh
-
-```shell
-nodejs-sh
 ```
