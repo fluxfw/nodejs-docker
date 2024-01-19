@@ -1,6 +1,5 @@
 *
 !bin
 !bin/**
-!.dockerignore
 !.gitignore
 !README.md
