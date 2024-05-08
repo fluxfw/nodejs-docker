@@ -1,6 +1,4 @@
-# flux-nodejs-docker
-
-Run nodejs in a docker container without install nodejs on host
+# nodejs-docker
 
 ## Installation
 
