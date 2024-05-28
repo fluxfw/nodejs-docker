@@ -2,24 +2,24 @@
 
 ## Installation
 
-Add the files in [bin/HOST_PATH](bin/HOST_PATH) to your PATH
+Add the files in [HOST_PATH](HOST_PATH) to your PATH
 
 ## Commands
 
-### node
+### nodejs-docker-node
 
 ```shell
-node-docker ...
+nodejs-docker-node ...
 ```
 
-### node-sh-docker
+### nodejs-docker-npm
 
 ```shell
-node-sh-docker
+nodejs-docker-npm ...
 ```
 
-### npm
+### nodejs-docker-sh
 
 ```shell
-npm-docker ...
+nodejs-docker-sh
 ```
