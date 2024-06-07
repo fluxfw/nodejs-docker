@@ -2,4 +2,4 @@
 
 set -e
 
-docker-utils-run-in-docker node:current-alpine npm . "$@"
+docker-utils-run-in-docker node:current-alpine npm . false "$@"

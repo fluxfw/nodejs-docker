@@ -2,4 +2,4 @@
 
 set -e
 
-docker-utils-run-in-docker node:current-alpine sh . "$@"
+docker-utils-run-in-docker node:current-alpine sh . false "$@"

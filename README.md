@@ -21,5 +21,11 @@ nodejs-docker-npm ...
 ### nodejs-docker-sh
 
 ```shell
-nodejs-docker-sh
+nodejs-docker-sh ...
+```
+
+### nodejs-docker-sh-as-root
+
+```shell
+nodejs-docker-sh-as-root ...
 ```
