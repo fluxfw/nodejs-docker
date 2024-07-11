@@ -1,9 +1,7 @@
 *
+!application
+!application/**
 !HOST_PATH
 !HOST_PATH/**
 !.gitignore
-!node.sh
-!npm.sh
 !README.md
-!sh.sh
-!sh-as-root.sh
